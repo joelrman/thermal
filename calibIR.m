@@ -66,7 +66,7 @@ daspect([1,1,1])
 
 % Inputs from image
 fprintf(['To complete ''Z'' value tasks, you may need to press '...
-,'Ctrl-C \n to interrogate figure and then re-run function:']);
+,'Ctrl-C \n to interrogate figure and then re-run function.\n']);
 Zcalib = input('Enter ''Z'' value of calibration section:\n');
 Zbarmin = input('Enter ''Z'' value at min colour-bar temperature:\n');
 Zbarmax = input('Enter ''Z'' value at max colour-bar temperature:\n');
